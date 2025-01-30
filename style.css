@@ -1,0 +1,223 @@
+* {
+   margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+ } 
+@media (max-width: 768px){
+  body {
+    font-size: 14px;
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .Werkstatt-Support {
+    flex-direction: column;
+    text-align: center;
+  }
+  .Werkstatt-Bild,.Werkstatt-Text {
+    width: 100%;
+  }
+}
+@media (max-width: 480px){
+  body {
+    font-size: 12px;
+  img {
+    width: 100%;
+    height: auto;
+  } 
+  }
+  .Werkstatt-Support {
+    flex-direction: column;
+    text-align: center;
+  }
+  .Werkstatt-Bild,.Werkstatt-Text {
+    width: 100%;
+  }
+}
+ h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+} 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+    width: auto;
+  }
+  
+  li { 
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    transition: background-color 0.5s ease;
+  }
+  
+  li a:hover {
+    background-color: rgb(172, 3, 3);
+    color: white;
+  }
+  img {
+    width: 100%;
+    height:auto;
+    margin-bottom: -5px;
+  }
+  .Nomad1 {
+    width: 100%;
+    height:auto;
+  }
+  p {
+    width: 100%;
+    height: 900px;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 40px;
+    background-repeat: repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4px;
+  }
+    a.button {
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+  a.button:hover {
+      background-color: rgb(172, 3, 3);
+      color: white;
+  }
+  a.button:visited {
+    color: white
+  }
+  table{ 
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: x-large;
+    border: 20px solid white; 
+  }
+  .table-wrapper {
+    overflow-x: auto;
+  }
+  td th {
+    margin: 0px;
+    padding: 0px;
+    word-wrap: break-word; 
+  }
+  tr {
+    background-color: black;
+    color: white;
+    height: 60px;
+    
+  }
+  a:link {
+    color: rgb(172, 3, 3);
+    background-color: transparent;
+    text-decoration:none;
+    transition: background-color 0.5s ease;
+  }
+  a:visited {
+    color: rgb(172, 3, 3);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: darkred;
+    background-color: transparent;
+    text-decoration: none ;
+  }
+  a:active {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 600px;
+    text-align: center;
+  }
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  } 
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    color: black;
+  }
+  .div-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .Sterne {
+    width: 150px !important;
+    height: auto !important;
+  }
+  .container {
+    display: flex;
+    align-items: stretch; 
+    gap: 70px;
+    background-color: black;
+    }
+    .image-section  {
+        flex: 1;
+    max-width: 50%; 
+    height: auto; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    }
+    .image-section img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+    .text-section {
+    max-width: 50%; 
+    padding-right: 40px;
+    padding-left: 40px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right; 
+    background-color: black;
+    font-size: 15px;
+    }
+    .text-section h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: white;
+    }
+    .text-section p {
+    font-size: 25px;
+    color: white;
+    }
